@@ -3,7 +3,7 @@ import logo from '../assets/DV.png'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { FaInstagram } from 'react-icons/fa'
-import {  } from 'react-icons/fa'
+import { TbBrandLeetcode } from "react-icons/tb";
 const Navbar = () => {
   return (
     <nav className='mb-20 flex items-center justify-between py-6'>
@@ -14,6 +14,7 @@ const Navbar = () => {
             <FaLinkedin />
             <FaXTwitter />
             <FaGithub />
+            <TbBrandLeetcode />
             <FaInstagram />
         </div>
     </nav>

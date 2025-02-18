@@ -5,72 +5,83 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const BOSSLADY_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a passionate Software Engineer with a Bachelor's in Information Technology from VIT Vellore. Skilled in Java, JavaScript, React, Node.js, and AWS, I specialize in full-stack development, cloud technologies, and database management. My experience includes AWS Lambda, DynamoDB, S3, and technical project management.
+
+An open-source contributor, I ranked 6th in SWOC '21 and led PR submissions in Script Winter of Code 2.0. As a blog writer at Coding Ninjas, I reviewed 100+ articles, mentoring teams to enhance engagement.
+
+I have led events, serving as Events Manager for VIT’s graVITas and organizing company-wide events at Schneider Electric. With 100+ problems solved on LeetCode, I continually refine my problem-solving skills. A district-level football tournament winner and fine arts enthusiast, I bring creativity, leadership, and collaboration to drive innovation and impact in tech.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "August 2024 - Present",
+    role: "Graduate Engineer Trainee",
+    company: "Schneider Electric",
+    description: `Enhanced the analytics of an internal project by 90% through in-depth data analysis, optimizing performance and insights. Boosted user engagement on an internal product by designing and implementing key features that improved usability and adoption. Successfully led the organization of the annual company event in collaboration with the VoW Community, ensuring seamless execution and high participation.`,
+    technologies: ["Javascript", "React.js", "Postman", "Github Copilot"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "January 2024-August 2024",
+    role: "Schneider Digital Intern",
+    company: "Schneider Electric",
+    description: `I gained hands-on experience in front-end development using JavaScript and React.js while working on a real-time internal project, utilizing Jira and Adobe Analytics to drive data-informed decisions. My backend expertise expanded through comprehensive training in AWS services, including Lambda, CloudWatch, DynamoDB, S3, and SNS. Beyond technical skills, I demonstrated strong leadership and organizational abilities by successfully planning and executing a high-impact ideathon, fostering innovation and collaboration within the team.`,
+    technologies: ["AWS", "CSS", "Vue.js", "MySQL"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "August 2022-November 2022",
+    role: "Technical Blog Reviewer Intern",
+    company: "Coding Ninjas",
+    description: `I was promoted for my contributions to technical content and reviewed over 100+ blogs, enhancing engagement and content quality for writers. Leading a four-member team, I collaborated with managers and the SEO team to optimize technical blogs, ensuring reader-friendly and high-impact content.`,
+    technologies: ["Google SEO", "Team Management", "Leadership", "Creative Writing"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "December 2021-July 2022",
+    role: "Technical Blog Writer Intern",
+    company: "Coding Ninjas",
+    description: `I collaborated with a five-member team on a technical writing project, contributing over 100+ blogs on diverse topics such as Web Development, Data Structures & Algorithms, and Bootstrap, enriching technical knowledge and accessibility for readers.`,
+    technologies: ["Problem Solving", "Technical Content Writing", "Figma"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
+    title: "To-Do-List",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Implemented a fully functional to-do list web app that allows users to create, manage, and track their tasks and priorities, ensuring efficient organization and productivity.",
+    technologies: ["HTML", "CSS", "Javascript","NodeJS","MongoDB"],
   },
   {
-    title: "Portfolio Website",
+    title: "BlogZilla",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Created and deployed a working Blog web app that is user-friendly and enables writers to compose and publish blogs effortlessly.",
+    technologies: ["HTML", "CSS", "Javascript","NodeJS","MongoDB"],
   },
   {
-    title: "Blogging Platform",
+    title: "Let’s Video Call",
+    image: project1,
+    description:
+      "Created a working video calling web app used to call people with your video and audio, anywhere in the world using Socket and PeerJS.",
+    technologies: ["HTML", "CSS", "Javascript","Socket/ Peer"],
+  },
+  {
+    title: "CrimRec",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A website to keep a record of the criminals for future judgment and to obtain relevant information regarding police officers and criminals all in one place.",
+    technologies: ["HTML", "CSS", "Javascript","NodeJS","MySQL", "Handlebars"],
   },
+  {
+    title: "Weather App",
+    image: project1,
+    description:
+      "Developed and deployed a website that tells the weather of any place the user searches for.",
+    technologies: ["HTML", "CSS", "Javascript","ReactJS"],
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Bengaluru, India",
+  phoneNo: "7505992112",
+  email: "devikavarshney0602@gmail.com",
 };

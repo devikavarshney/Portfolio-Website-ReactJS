@@ -1,7 +1,8 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import Bosslady from './components/Bosslady'
 import About from './components/About'
+import Technologies from './components/Technologies'
+import Experience from './components/Experience'
 function App() {
   return (
     <div className='overflox-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900'>
@@ -12,6 +13,8 @@ function App() {
       <Navbar />
       <Bosslady />
       <About />
+      <Technologies />
+      <Experience />
       </div>
     </div>
   )
