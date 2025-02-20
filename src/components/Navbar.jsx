@@ -11,11 +11,11 @@ const Navbar = () => {
             <img className='mx-2 w-10'src={logo} alt="logo" />
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaLinkedin />
-            <FaXTwitter />
-            <FaGithub />
-            <TbBrandLeetcode />
-            <FaInstagram />
+            <a href='https://www.linkedin.com/in/devikavarshney/' target="_blank" style={{cursor:'pointer'}}><FaLinkedin /></a>
+            <a href='https://x.com/devika0003_' target="_blank" style={{cursor:'pointer'}}><FaXTwitter /></a>
+            <a href='https://github.com/devikavarshney' target="_blank" style={{cursor:'pointer'}}><FaGithub /></a>
+            <a href='https://leetcode.com/u/devikavarshney0003/' target="_blank" style={{cursor:'pointer'}}><TbBrandLeetcode /></a>
+            <a href='https://www.instagram.com/naam.hai.devika/' target="_blank" style={{cursor:'pointer'}}><FaInstagram /></a>
         </div>
     </nav>
   )
