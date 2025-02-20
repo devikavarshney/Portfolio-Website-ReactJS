@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 export const BOSSLADY_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -45,21 +46,21 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "To-Do-List",
-    image: project2,
+    image: project3,
     description:
       "Implemented a fully functional to-do list web app that allows users to create, manage, and track their tasks and priorities, ensuring efficient organization and productivity.",
     technologies: ["HTML", "CSS", "Javascript","NodeJS","MongoDB"],
   },
   {
     title: "BlogZilla",
-    image: project3,
+    image: project2,
     description:
       "Created and deployed a working Blog web app that is user-friendly and enables writers to compose and publish blogs effortlessly.",
     technologies: ["HTML", "CSS", "Javascript","NodeJS","MongoDB"],
   },
   {
     title: "Let’s Video Call",
-    image: project1,
+    image: project5,
     description:
       "Created a working video calling web app used to call people with your video and audio, anywhere in the world using Socket and PeerJS.",
     technologies: ["HTML", "CSS", "Javascript","Socket/ Peer"],
